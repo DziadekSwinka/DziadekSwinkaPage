@@ -58,6 +58,16 @@ body
 	display: block;
 	padding-top:100%;
 }
+.dymek
+{
+	position: fixed;
+	left:0%;
+	top: 50%;
+	background-image: url("Images//dziadek dymek.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding:10%;
+}
 #Footer
 {
 	position:fixed;
@@ -81,5 +91,6 @@ body
 	background-image: url("Images//house.png");
 	background-repeat: no-repeat;
 	background-size: contain;
+	width: 10%;
 	padding: 5%;
 }

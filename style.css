@@ -100,6 +100,10 @@ iframe
 	width:50%;
 	display: none;
 }
+.contener:hover + #dymek
+{
+	display: block;
+}
 #Footer
 {
 	position:fixed;
@@ -129,8 +133,9 @@ iframe
 #socials>div
 {
 	display: inline-block;
-	margin-left: 80px;
-	margin-right: 80px;
+	width:24%;
+	text-align: center;
+	padding-top: 30px;
 }
 #socials>div a
 {

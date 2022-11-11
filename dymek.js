@@ -1,8 +1,9 @@
-var item1=document.getElementById('menu1');
-var item2=document.getElementById('menu2');
-var item3=document.getElementsByClassName('.menu3');
+const item1=document.getElementById('menu1');
+const item2=document.getElementById('menu2');
+const item3=document.getElementsByClassName('.menu3');
 
 if(item1){
+	alert("BBB");
 	item1.addEventListener("mouseover",function(){document.getElementById("dymek").style.display = "block";});
 }
 if(item2){

@@ -83,12 +83,21 @@ iframe
 }
 .text
 {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	padding-bottom: 300px;
 }
-#dymek
+.text>#oMnie
+{
+	text-align:left;
+}
+.text>H3,
+.text>H2
+{
+	text-align: center;
+}
+/*.dymek
 {
 	position: fixed;
 	left:0%;
@@ -98,12 +107,11 @@ iframe
 	background-repeat: no-repeat;
 	padding:10%;
 	width:50%;
+	/*display: none;
+}
+#header:hover + #menu1{
 	display: none;
-}
-.contener:hover + #dymek
-{
-	display: block;
-}
+}*/
 #Footer
 {
 	position:fixed;
@@ -137,26 +145,36 @@ iframe
 	text-align: center;
 	padding-top: 30px;
 }
+#oMnie>div
+{
+	display: block;
+	padding-left: 0px;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	font-size: 24px;
+	text-align: center;
+}
+#oMnie>div a,
 #socials>div a
 {
-	
 	color: #000;
 	text-decoration: none;
 	transition: color 0.5s;
 }
-#yt:hover a
+#socials>#yt:hover a
 {
 	color: red;
 }
-#fb:hover a
+#socials>#fb:hover a
 {
 	color: blue;
 }
-#ig:hover a
+#socials>#ig:hover a
 {
 	color: #a027c4;
 }
-#gh:hover a
+#socials>#gh:hover a
 {
 	color: white;
 }

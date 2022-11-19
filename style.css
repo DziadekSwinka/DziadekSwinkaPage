@@ -10,13 +10,19 @@ ul
 }
 #header
 {
-	width: 100%;
+	/*width: 100%;*/
 	margin-left: 0;
 	margin-right: 0;
 	padding: 10px;
 	background-color: #bbddff;
-	font-size: 24px;
+	font-size: 32px;
 	text-align:center;
+	letter-spacing: 5px;
+	
+}
+#header h1
+{
+	background-color: linear-gradient(to right, #00CF8A 0%, #880CCF 100%);
 }
 .contener
 {
@@ -87,38 +93,39 @@ iframe
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-bottom: 300px;
+	font-size: 24px;
 }
-.text>#oMnie
+.text>#oMnie div
 {
 	text-align:left;
+	margin-left: 60px;
 }
 .text>H3,
 .text>H2
 {
 	text-align: center;
 }
-/*.dymek
+#dymek
 {
 	position: fixed;
-	left:0%;
+	left:0;
 	top: 50%;
 	background-image: url("Images//dziadek dymek.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding:10%;
-	width:50%;
-	/*display: none;
-}
-#header:hover + #menu1{
+	width:40%;
 	display: none;
-}*/
+	margin-right:0;
+	margin-left:0;
+}
 #Footer
 {
 	position:fixed;
 	bottom: 0;
 	width:100%;
-	height:20%;
-	min-height: 300px;
+	height:230px;
+	min-height: 230px;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -126,6 +133,7 @@ iframe
 #trawka
 {
 	height:100%;
+	width: 100%;
 	background-image: url("Images//grass.png");
 	background-repeat: repeat;
 }
@@ -135,23 +143,19 @@ iframe
 	background-image: url("Images//house.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 10%;
-	padding: 5%;
+	width: 8%;
+	padding: 4%;
 }
 #socials>div
 {
 	display: inline-block;
 	width:24%;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 15px;
 }
 #oMnie>div
 {
 	display: block;
-	padding-left: 0px;
-	margin-left:10%;
-	margin-right:10%;
-	width:80%;
 	font-size: 24px;
 	text-align: center;
 }

@@ -232,9 +232,21 @@ iframe
 {
 	display: inline-block;
 	width: 24%;
+	min-height:100px;
+	max-height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
-.galeria>.image>img
+#g1{background-image: url("Images/g1.png");}
+#g2{background-image: url("Images/g2.png");}
+#g3{background-image: url("Images/g3.png");}
+#g4{background-image: url("Images/g4.png");}
+#g5{background-image: url("Images/g5.png");}
+#g6{background-image: url("Images/g6.png");}
+#g7{background-image: url("Images/g7.png");}
+#g8{background-image: url("Images/g8.png");}
+/*.galeria>.image>img
 {
 	max-height: 200px;
 	width:100%;
-}
+}*/

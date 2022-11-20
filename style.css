@@ -15,14 +15,16 @@ ul
 	margin-right: 0;
 	padding: 10px;
 	background-color: #bbddff;
+	/*background: linear-gradient(to right, #00CF8A 0%, #880CCF 100%);*/
 	font-size: 32px;
 	text-align:center;
 	letter-spacing: 5px;
 	
 }
-#header h1
+h1
 {
-	background-color: linear-gradient(to right, #00CF8A 0%, #880CCF 100%);
+	color: purple;
+	/*color: linear-gradient(to right, #00CF8A 0%, #880CCF 100%);*/
 }
 .contener
 {
@@ -47,19 +49,19 @@ ul
 	-moz-box-shadow: 	5px -3px 37px 0px rgba(66, 68, 95, 1);
 	box-shadow: 		5px -3px 37px 0px rgba(66, 68, 95, 1);
 }
-.contener>a
+.contener a
 {
+	display: block;
 	color: #bbb;
 	letter-spacing: 2px;
 	font-size: 32px;
 	text-align: center;
-	display: inline-block;
 	text-transform: ;
 	text-decoration: none; 
-	margin-top: 40%;
-	margin-bottom: 40%;
+	padding-top: 40%;
+	padding-bottom: 40%;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	transition: color 0.8s;
 }
 .contener:hover a
@@ -87,6 +89,23 @@ iframe
 	margin-left: 10%;
 	margin-right: 10%;
 }
+.download
+{
+	dislpay: inline-block;
+}
+.download>a
+{
+	display:block;
+}
+.download>a
+{
+	margin-right: 0;
+	width
+}
+.download>div
+{
+	width: 430px;
+}
 .text
 {
 	width: 70%;
@@ -105,19 +124,28 @@ iframe
 {
 	text-align: center;
 }
-#dymek
+.dymek
 {
 	position: fixed;
-	left:0;
 	top: 50%;
-	background-image: url("Images//dziadek dymek.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding:10%;
-	width:40%;
+	width:200px;
 	display: none;
 	margin-right:0;
 	margin-left:0;
+}
+.dymek>img
+{
+	width:100%;
+}
+#dymek3
+{
+	left:0;
+}
+#dymek2
+{
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	right:0;
 }
 #Footer
 {
@@ -181,4 +209,31 @@ iframe
 #socials>#gh:hover a
 {
 	color: white;
+}
+#Pobierz
+{
+	position: absolute;
+	display: block;
+	right:100px;
+	width: 160px;
+	height: 80px;
+	padding:0;
+	margin: 0;
+	background-image: url("Images//button.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.galeria
+{
+	margin-top: 100px;
+	width: 100%;
+}
+.galeria>.image
+{
+	display: inline-block;
+	width: 24%;
+}
+.galeria>.image>img
+{
+	width:100%;
 }

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
 	<script src="scripts.js"></script> 
+	<script src="jquery-3.6.0.min.js"></script> 
 	<script src="dymek.js"></script>
 	<title>Dziadek Świnka</title>
 </head>
@@ -16,12 +17,16 @@
 	</div>
 		<div id="nav">
 			<ul>
-				<li class="contener" onmouseover="dymek('')" onmouseout="dymek_out()"><a href="">Dziadek Świnka</a></li>
-				<li class="contener" onmouseover="dymek('dziadek dymek 2')" onmouseout="dymek_out()"><a href="O grze.html">O grze</a></li>
-				<li class="contener" onmouseover="dymek('dziadek dymek 3')" onmouseout="dymek_out()"><a href="O mnie.html">O mnie</a></li>
+				<li class="contener" onmouseover="dymek('')" onmouseout="dymek_out()"><a href="DziadekŚwinka.html">Dziadek Świnka</a></li>
+				<li class="contener" onmouseover="dymek('2')" onmouseout="dymek_out('2')"><a href="O grze.html">O grze</a></li>
+				<li class="contener" onmouseover="dymek('3')" onmouseout="dymek_out('3')"><a href="O mnie.html">O mnie</a></li>
 			</ul>
 		</div>
-		<div id="dymek">
+		<div class="dymek" id="dymek2">
+			<img src="Images//dziadek dymek 2.png"/>
+		</div>
+		<div class="dymek" id="dymek3">
+			<img src="Images//dziadek dymek 3.png"/>
 		</div>
 		<div id="Footer">
 			<div id="domek"></div>

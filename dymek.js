@@ -1,9 +1,12 @@
-function dymek(nazwa)
+function dymek(numer)
 {
-	document.getElementById("dymek").style.display="block";
-	document.getElementById("dymek").style.backgroundImage='url("Images//'+nazwa+'.png")';
+	//document.getElementById("dymek"+numer).style.backgroundImage='url("Images//dziadek dymek '+numer+'.png")';
+	//$("#dymek"+numer).fadeIn(500);
+	document.getElementById("dymek"+numer).style.display="block";
 };
-function dymek_out()
+function dymek_out(numer)
 {
-	document.getElementById("dymek").style.display="none";
+	
+	$("#dymek"+numer).fadeOut(500);
+	//document.getElementById("dymek"+numer).style.display="none";
 };

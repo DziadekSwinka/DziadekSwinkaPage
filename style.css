@@ -235,5 +235,6 @@ iframe
 }
 .galeria>.image>img
 {
+	max-height: 200px;
 	width:100%;
 }

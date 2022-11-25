@@ -178,9 +178,13 @@ table
 	text-decoration: none;
 	color: white;
 }
+.Pobierz
+{
+	padding-bottom: 20px;
+}
 .Pobierz>button
 {
-	height: 28px;
+	height: 40px;
 	widht: 100px;
 	background-color: #539dfc; 
 	border-radius: 10px;
@@ -188,6 +192,7 @@ table
 	float: right;
 	margin-right: 250px;
 	border: 2px solid blue;
+	
 }
 .Pobierz>button:hover
 {
@@ -226,3 +231,32 @@ table
 {
 	margin-bottom: 20px;
 }
+.galeria
+{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.galeria>.image
+{
+	width:24%;
+	display: inline-block;
+	border:1px solid black;
+}
+.galeria>.image>img
+{
+	display: block;
+	width: 100%; 
+}
+#mainImage
+{
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 500px;
+	margin-bottom:20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+

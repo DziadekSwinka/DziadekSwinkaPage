@@ -7,8 +7,9 @@
 	<title>Dziadek Świnka</title>
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+	<script src="Galeria.js"></script> 
 </head>
-<body>
+<body onload="loadImage()">
 	<div id="header">
 		<h1>Dziadek Świnka</h1>
 		<h2>Strona (nie)oficjalna</h2>
@@ -36,10 +37,19 @@
 		</ul>
 	</div>
 	<div class="content">
-		<p>
-			Strona poświęcona jest projektowi gry: "Dziadek Świnka 3".
-			<iframe width="100%" height="480" src="https://www.youtube.com/embed/dv5oV9H15nw" title="Dziadek Świnka Gra" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</p>
+		<H3 style="width:100%; text-algin: center;">Galeria</H3>
+		<div id="mainImage">
+		</div>
+		<div class="galeria">
+			<div class="image" onclick="setImage(1)"><img src="Graphics//g1.PNG" alt="obrazek1"></div>
+			<div class="image" onclick="setImage(2)"><img src="Graphics//g2.PNG" alt="obrazek2"></div>
+			<div class="image" onclick="setImage(3)"><img src="Graphics//g3.PNG" alt="obrazek3"></div>
+			<div class="image" onclick="setImage(4)"><img src="Graphics//g4.PNG" alt="obrazek4"></div>
+			<div class="image" onclick="setImage(5)"><img src="Graphics//g5.PNG" alt="obrazek5"></div>
+			<div class="image" onclick="setImage(6)"><img src="Graphics//g6.PNG" alt="obrazek6"></div>
+			<div class="image" onclick="setImage(7)"><img src="Graphics//g7.PNG" alt="obrazek7"></div>
+			<div class="image" onclick="setImage(8)"><img src="Graphics//g8.PNG" alt="obrazek8"></div>
+		</div>
 	</div>
 	<div id="footer">
 		<div class="socjals">
